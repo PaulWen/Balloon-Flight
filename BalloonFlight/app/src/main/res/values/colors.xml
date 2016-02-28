@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Farbe der Säulen im Spiel und der Überschriften -->
+    <color name="color1">#0000CD</color>
+    <!-- Farbe des Balls im Spiel und der Buttons, wenn sie nicht gedrückt sind -->
+    <color name="color2">#FFA500</color>
+    <!-- Hintergrundfarbe in der gesamten App -->
+    <color name="color3">#000000</color>
+    <!-- Farbe der Buttons wenn sie gedrückt sind -->
+    <color name="color4">#FFFFFF</color>
+    <!-- Farbe der Ballons wenn sie gedrückt sind -->
+    <color name="color5">#ea2a2a</color>
+
+</resources>

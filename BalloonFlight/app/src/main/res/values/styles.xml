@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- das Theme der App -->
+    <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        
+    </style>
+
+    <!-- der Style von allen Buttons in der App -->
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/color3</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <!-- der Style von allen TectViews, welche Überschriften sind -->
+    <style name="Headline" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+</resources>

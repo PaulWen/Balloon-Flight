@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@color/color3"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/Headline"
+        android:text="@string/app_name" />
+
+    <Button
+        android:id="@+id/playButton"
+        style="@style/Button"
+        android:text="@string/play" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        style="@style/Button"
+        android:text="@string/settings" />
+
+    <Button
+        android:id="@+id/exitButton"
+        style="@style/Button"
+        android:text="@string/exit" />
+
+</LinearLayout>

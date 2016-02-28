@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- mit hilfe eines Selectors kann man z.B. bei einem Button festlegen,
+welche Farbe in seinen unterschiedlichen Zustaänden angezeigt werden soll -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- wenn der Button gedrückt ist -->
+    <item android:state_pressed="true" android:color="@color/color4"/>
+    <!-- wenn der Button fokusiert ist -->
+    <item android:state_focused="true" android:color="@color/color4"/>
+    <!-- wenn der Button in einem anderen, als den zuvor definierten Zustand ist -->
+    <item android:color="@color/color2"/>
+
+</selector>
